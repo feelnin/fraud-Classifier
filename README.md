@@ -23,4 +23,5 @@ A base de dados que será utilizada para o desenvolvimento deste projeto contém
 - isFraud - ÉFraude: flag que define se a transação é fraudulenta ou não. Nesta simulação o objetivo da fraude é assumir a conta do usuário, esvaziá-la transferindo para outra conta e então sacando o dinheiro.
 
 - isFlaggedFraud - SinalizadaComoFraude: automaticamente marcadas pelo banco como fraude por tentarem transferir mais de 200.000 em uma única transação.
+
 Assim, os objetivos gerais do projeto foram: análise exploratória, modelagem, feature engineering e avaliação dos modelos Random Forest e XGBoost.
