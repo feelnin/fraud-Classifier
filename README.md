@@ -1,3 +1,5 @@
+Fraud Classifier
+
 Project carried out during the Tera Data Science and Machine Learning bootcamp in the year 2022 The database that will be used for the development of this project contains approximately 6.3 million transactions. The data contained in this database is simulated and comprises 30 days. These transactions can be of different types and were executed via mobile devices. The features contained in this database are:
 
 step - Step: represents the total hours elapsed since the beginning of the simulation. This feature will vary between 1 and 744 (30 days);
