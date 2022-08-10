@@ -1,27 +1,25 @@
-# Classificador-de-fraudes
-Projeto realizado durante o bootcamp da Tera de Data Science e Machine Learning no ano de 2022
-A base de dados que será utilizada para o desenvolvimento deste projeto contém aproximadamente 6,3 milhões de transações. Os dados contidos nesta base de dados são simulados e compreendem 30 dias. Estas transações podem ser de diferentes tipo e foram executadas via mobile devices. As features contidas nesta base de dados são:
+Project carried out during the Tera Data Science and Machine Learning bootcamp in the year 2022 The database that will be used for the development of this project contains approximately 6.3 million transactions. The data contained in this database is simulated and comprises 30 days. These transactions can be of different types and were executed via mobile devices. The features contained in this database are:
 
-- step - Passo: representa o total de horas transcorrido desde o início da simulação. Esta feature vai variar entre 1 e 744 (30 dias);
+step - Step: represents the total hours elapsed since the beginning of the simulation. This feature will vary between 1 and 744 (30 days);
 
-- type - Tipo: tipo de transação (depósito, saque, débito, pagamento e transferência);
+type - Type: type of transaction (deposit, withdrawal, debit, payment and transfer);
 
-- amount - Quantia: total que foi transacionado;
+amount - Amount: total that was transacted;
 
-- nameOrig - ClienteOrigem: cliente que iniciou a transação
+nameOrig - CustomerOrigin: customer who initiated the transaction
 
-- oldbalanceOrg - SaldoInicialOrigem: saldo da conta de origem antes da transação;
+oldbalanceOrg - OriginalBalanceOrigin: balance of the source account before the transaction;
 
-- newbalanceOrig - SaldoFinalOrigem: saldo da conta de origem após a transação;
+newbalanceOrig - BalanceOrigin: balance of the origin account after the transaction;
 
-- nameDest - ClienteDestino: cliente de destino da transação;
+nameDest -ClientDestino: destination client of the transaction;
 
-- oldbalanceDest - SaldoInicialDestino: saldo da conta de destino antes da transação;
+oldbalanceDest -DestinationInitialBalance: balance of the destination account before the transaction;
 
-- newbalanceDest - SaldoFinalDestino: saldo da conta de destino após a transação;
+newbalanceDest -SaldoFinalDestino: balance of the target account after the transaction;
 
-- isFraud - ÉFraude: flag que define se a transação é fraudulenta ou não. Nesta simulação o objetivo da fraude é assumir a conta do usuário, esvaziá-la transferindo para outra conta e então sacando o dinheiro.
+isFraud - ÉFraud: flag that defines whether the transaction is fraudulent or not. In this simulation the purpose of the fraud is to take over the user's account, empty it by transferring it to another account and then withdrawing the money.
 
-- isFlaggedFraud - SinalizadaComoFraude: automaticamente marcadas pelo banco como fraude por tentarem transferir mais de 200.000 em uma única transação.
+isFlaggedFraud - FlaggedAsFraud: automatically flagged by the bank as fraud for trying to transfer more than 200,000 in a single transaction.
 
-Assim, os objetivos gerais do projeto foram: análise exploratória, modelagem, feature engineering e avaliação dos modelos Random Forest e XGBoost.
+Thus, the general objectives of the project were: exploratory analysis, modeling, feature engineering and evaluation of Random Forest and XGBoost models.
